@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+    cloudreve:
+        image: xavierniu/cloudreve
+        environment:
+            - PUID=0
+            - PGID=0
+        volumes:
+            - /data/cloudreve/uploads:/cloudreve/uploads
+            - /home/wwwroot/nextcloud/storage/gdwater/Download:/downloads
+            - /home/docker/cloudreve/config:/cloudreve/config
+            - /home/docker/cloudreve/avatar:/cloudreve/avatar
+        network_mode: host
