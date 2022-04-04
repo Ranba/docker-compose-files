@@ -1,0 +1,32 @@
+version: 3 
+services: 
+	mariadb: 
+		image: mariadb:lastest 
+		container_name: mariadb 
+		volumes:  
+			- /root/docker/mariadb/conf:/etc/mysql/conf.d 
+			- /root/docker/mariadb/data:/var/lib/mysql 
+			- /root/docker/mariadb/logs:/logs 
+		networks:  
+			- mariadb 
+		deploy: 
+			restart_policy: 
+				condition: always 
+	
+	phpmyadmin: 
+		image: phpmyadmin 
+		environment: 
+			- PMA_HOST=mariadb 
+			- PMA_PORT=3306 
+		container_name: phpmyadmin 
+		depends_on:
+			- mariadb
+		networks: 
+			- mariadb 
+		deploy: 
+			restart_policy: 
+				condition: always
+
+networks: 
+	mariadb: 
+		external: true
