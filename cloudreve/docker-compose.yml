@@ -12,4 +12,5 @@ services:
             - /home/docker/cloudreve/config:/cloudreve/config
             - /home/docker/cloudreve/avatar:/cloudreve/avatar
             - /home/docker/cloudreve/db:/cloudreve/db
+            - /home/docker/aria2-pro-cloudreve/downloads:/downloads
         network_mode: host
