@@ -19,8 +19,8 @@ services:
       - TZ=Asia/Shanghai
       - SPECIAL_MODE=rclone
     volumes:
-      - /home/docker/aira2-pro/aria2-config:/config
-      - /home/docker/aira2-pro/aria2-downloads:/downloads
+      - /home/docker/aria2-pro/confg:/config
+      - /home/docker/aria2-pro/downloads:/downloads
 # If you use host network mode, then no port mapping is required.
 # This is the easiest way to use IPv6 networks.
     network_mode: host
@@ -51,8 +51,8 @@ services:
       - UPDATE_TRACKERS=false
       - TZ=Asia/Shanghai
     volumes:
-      - /home/docker/aira2-pro-cloudreve/aria2-config:/config
-      - /home/docker/aira2-pro-cloudreve/aria2-downloads:/downloads
+      - /home/docker/aria2-pro-cloudreve/config:/config
+      - /home/docker/aria2-pro-cloudreve/downloads:/downloads
 # If you use host network mode, then no port mapping is required.
 # This is the easiest way to use IPv6 networks.
     network_mode: host
