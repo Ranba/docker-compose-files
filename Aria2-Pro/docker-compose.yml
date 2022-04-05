@@ -19,7 +19,7 @@ services:
       - TZ=Asia/Shanghai
       - SPECIAL_MODE=rclone
     volumes:
-      - /home/docker/aria2-pro/confg:/config
+      - /home/docker/aria2-pro/config:/config
       - /home/docker/aria2-pro/downloads:/downloads
 # If you use host network mode, then no port mapping is required.
 # This is the easiest way to use IPv6 networks.
