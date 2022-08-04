@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+
+  caddy:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: caddy
+    restart: always
+    volumes:
+      - /root/docker/caddy/conf/Caddyfile:/etc/caddy/Caddyfile
+      - /root/docker/caddy/conf:/etc/caddy
+      - /root/docker/caddy/.caddy:/root/.candy
+      - /root/docker/caddy/logs:/opt/logs
+      - /root/docker/caddy/www:/opt/www
+    ports:
+      - 80:80
+      - 443:443
+      - 2019:2019

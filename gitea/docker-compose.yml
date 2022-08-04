@@ -1,0 +1,25 @@
+version: "3"
+
+networks:
+  caddy_default
+    external: true
+
+services:
+  gitea:
+    image: gitea/gitea:1.16.5
+    container_name: gitea
+    environment:
+      - USER_UID=${USER_UID}
+      - USER_GID=${USER_GID}
+      - DB_TYPE=${DB_TYPE}
+      - DB_HOST=${DB_HOST}
+      - DB_NAME=${DB_NAME}
+      - DB_USER=${DB_USER}
+      - DB_PASSWD=${DB_PASSWD}
+    restart: always
+    networks:
+      - caddy_default
+    volumes:
+      - ${datadir}:/data
+      - /etc/timezone:/etc/timezone:ro
+      - /etc/localtime:/etc/localtime:ro

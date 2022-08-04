@@ -1,0 +1,25 @@
+version: '3'
+
+networks:
+  caddyweb:
+    external:
+      true
+
+services:
+  nextcloud:
+    image: nextcloud
+    container_name: nextcloud
+    restart: always
+    volumes:
+      - /docker/nextcloud/html:/var/www/html
+      - /docker/nextcloud/data:/var/www/html/data
+      - /docker/nextcloud/apps:/var/www/html/custom_apps
+      - /docker/nextcloud/config:/var/www/html/config
+      - /docker/nextcloud/theme:/var/www/html/themes
+    environment:
+      - MYSQL_PASSWORD=Vb.s(.EsyxCF5hxW
+      - MYSQL_DATABASE=nextcloud
+      - MYSQL_USER=nextcloud
+      - MYSQL_HOST=172.18.0.2:3306
+    networks:
+      - caddyweb
