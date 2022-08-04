@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+# 源文件来自：https://raw.githubusercontent.com/mritd/dockerfile/master/caddy/Dockerfile
+# 作者的Caddy教程：https://mritd.com/2021/01/07/lets-start-using-caddy2/
+
+>>>>>>> 3036afc190b21a7498643c55822843c130e6bd45
 FROM golang:1.18.0-alpine3.15 AS builder
 
 RUN set -e \
@@ -19,7 +25,11 @@ RUN set -e \
         --with github.com/caddyserver/transform-encoder \
         --with github.com/caddyserver/replace-response \
         --with github.com/imgk/caddy-trojan
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> 3036afc190b21a7498643c55822843c130e6bd45
 
 FROM alpine:3.15 AS dist
 
