@@ -16,7 +16,7 @@ services:
         networks:
             - caddy_net
 
-    phpmyadmin
+    phpmyadmin:
         image: phpmyadmin:fpm-alpine
         container_name: phpmyadmin
         restart: always
