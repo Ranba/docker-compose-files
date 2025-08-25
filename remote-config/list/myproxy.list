@@ -1,6 +1,8 @@
 IP-CIDR,37.120.173.208/24,no-resolve
 DOMAIN,prod.brass.cloud.cupronickel.goog
 DOMAIN,prod.zinc.cloud.cupronickel.goog
+DOMAIN-SUFFIX,thundermail.com
+DOMAIN-SUFFIX,list-manage.com
 DOMAIN-SUFFIX,terabox.com
 DOMAIN-SUFFIX,vivaldi.net
 DOMAIN-SUFFIX,vivaldi.com
