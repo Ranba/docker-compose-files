@@ -31,7 +31,7 @@ DOMAIN-SUFFIX,
 DOMAIN,ftp-nanny.alwaysdata.net
 DOMAIN,imap-nanny.alwaysdata.net
 DOMAIN,pop-nanny.alwaysdata.net
-DOMAIN,smtp-nanny.alwaysdata.net'
+DOMAIN,smtp-nanny.alwaysdata.net
 DOMAIN,ssh-nanny.alwaysdata.net
 DOMAIN,webdav-nanny.alwaysdata.net
 DOMAIN-SUFFIX,ftp-nanny.alwaysdata.net
