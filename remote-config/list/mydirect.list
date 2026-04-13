@@ -43,14 +43,12 @@ DOMAIN-SUFFIX,spartanhost.net
 DOMAIN-SUFFIX,spaceship.com
 DOMAIN-SUFFIX,spaceship-cdn.com
 DOMAIN-SUFFIX,sakuraikaede.com
-DOMAIN-SUFFIX,gv.uy
 DOMAIN-SUFFIX,ae.kg
 DOMAIN-SUFFIX,py.kg
 DOMAIN-SUFFIX,wanyiwan.top
 DOMAIN-SUFFIX,tabbit-ai.com
 # 申请的免费二级域名
-kvj.loc.cc
-arim.loc.cc
-kvs.rr.kg
-kvj.ae.kg
-kvj.gv.uy
+DOMAIN-SUFFIX,kvj.loc.cc
+DOMAIN-SUFFIX,arim.loc.cc
+DOMAIN-SUFFIX,kvs.rr.kg
+DOMAIN-SUFFIX,kvj.ae.kg

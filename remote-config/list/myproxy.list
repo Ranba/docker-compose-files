@@ -28,10 +28,11 @@ DOMAIN-SUFFIX,39.la
 DOMAIN-SUFFIX,dd999.uk
 # DOMAIN-SUFFIX,
 # alwaysdata
-DOMAIN,ftp-nanny.alwaysdata.net
-DOMAIN,imap-nanny.alwaysdata.net
-DOMAIN,pop-nanny.alwaysdata.net
-DOMAIN,smtp-nanny.alwaysdata.net
-DOMAIN,ssh-nanny.alwaysdata.net
-DOMAIN,webdav-nanny.alwaysdata.net
 DOMAIN-SUFFIX,ftp-nanny.alwaysdata.net
+DOMAIN-SUFFIX,imap-nanny.alwaysdata.net
+DOMAIN-SUFFIX,pop-nanny.alwaysdata.net
+DOMAIN-SUFFIX,smtp-nanny.alwaysdata.net
+DOMAIN-SUFFIX,ssh-nanny.alwaysdata.net
+DOMAIN-SUFFIX,webdav-nanny.alwaysdata.net
+DOMAIN-SUFFIX,mail5.serv00.com
+DOMAIN-SUFFIX,mail.kvj.gv.uy
