@@ -36,3 +36,5 @@ DOMAIN-SUFFIX,ssh-nanny.alwaysdata.net
 DOMAIN-SUFFIX,webdav-nanny.alwaysdata.net
 DOMAIN-SUFFIX,mail5.serv00.com
 DOMAIN-SUFFIX,mail.kvj.gv.uy
+# VPS Service
+DOMAIN-SUFFIX,rfchost.com
