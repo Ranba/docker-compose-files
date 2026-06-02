@@ -1,1 +1,4 @@
 DOMAIN-SUFFIX,takehost.biz
+DOMAIN-SUFFIX,servitro.com
+IP-CIDR,5.175.183.209/32,no-resolve
+IP-CIDR,87.239.135.186/32,no-resolve

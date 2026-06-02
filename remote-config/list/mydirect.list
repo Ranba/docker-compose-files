@@ -10,16 +10,16 @@ IP-CIDR,142.171.64.227/32,no-resolve
 IP-CIDR,159.195.52.141/32,no-resolve
 IP-CIDR,148.135.118.95/32,no-resolve
 IP-CIDR,163.123.236.18/32,no-resolve
-IP-CIDR,5.175.183.209/32,no-resolve
+# IP-CIDR,5.175.183.209/32,no-resolve
 IP-CIDR,204.152.218.232/32,no-resolve
 IP-CIDR,151.242.189.139/32,no-resolve
 IP-CIDR,185.244.195.101/22,no-resolve
-IP-CIDR,5.178.101.116/32,no-resolve
+# IP-CIDR,5.178.101.116/32,no-resolve
 IP-CIDR,69.63.210.29/32,no-resolve
 IP-CIDR,38.244.63.187/32,no-resolve
 IP-CIDR,74.222.29.98/32,no-resolve
 IP-CIDR,142.171.111.230/32,no-resolve
-IP-CIDR,23.238.110.141/32,no-resolve
+IP-CIDR,104.223.14.50/32,no-resolve
 DOMAIN-SUFFIX,955106.xyz
 DOMAIN-SUFFIX,204647.xyz
 DOMAIN-SUFFIX,510865.xyz
@@ -43,6 +43,18 @@ DOMAIN-SUFFIX,spartanhost.net
 DOMAIN-SUFFIX,spaceship.com
 DOMAIN-SUFFIX,spaceship-cdn.com
 DOMAIN-SUFFIX,sakuraikaede.com
-DOMAIN-SUFFIX,gv.uy
 DOMAIN-SUFFIX,ae.kg
 DOMAIN-SUFFIX,py.kg
+DOMAIN-SUFFIX,wanyiwan.top
+DOMAIN-SUFFIX,tabbit-ai.com
+DOMAIN-SUFFIX,dnssr.com
+DOMAIN-SUFFIX,muyuan.do
+# 申请的免费二级域名
+DOMAIN-SUFFIX,kvj.loc.cc
+DOMAIN-SUFFIX,arim.loc.cc
+DOMAIN-SUFFIX,kvs.rr.kg
+DOMAIN-SUFFIX,kvj.ae.kg
+# guaiEMBY
+DOMAIN-SUFFIX,8211992.xyz
+DOMAIN-SUFFIX,552554.xyz
+DOMAIN-SUFFIX,okaapps.com
