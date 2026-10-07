@@ -1,5 +1,7 @@
 DOMAIN-SUFFIX,takehost.biz
 DOMAIN-SUFFIX,servitro.com
 DOMAIN-SUFFIX,kaspersky.co.uk
+DOMAIN-SUFFIX,kaspersky-labs.com
+DOMAIN-SUFFIX,kaspersky.com
 IP-CIDR,5.175.183.209/32,no-resolve
 IP-CIDR,87.239.135.186/32,no-resolve
